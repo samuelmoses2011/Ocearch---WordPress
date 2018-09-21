@@ -1,0 +1,80 @@
+<h3>1.2.4</h3>
+<em>February 22, 2018</em>
+<ul>
+    <li>Added support for quarterly and semi-annual billing periods. Requires Recurring Donations 1.1+.</li>
+    <li>Updated how donation plans are created to be compatible with latest Stripe API version.</li>
+    <li>Show correct amount in Stripe Checkout when using a zero-decimal currency.</li>
+    <li>Allow the IPN handler to correctly deal with Stripe Connect webhooks.</li>
+    <li>Improved the way the Stripe Checkout integration works when there are multiple donation forms on the same page.</li>
+    <li>Fixed issue that prevented the form processing spinner from disappearing in case of error in certain scenarios.</li>
+</ul>
+<h3>1.2.3</h3>
+<em>June 9, 2017</em>
+<ul>
+    <li>Added proper support zero-decimal currencies. This will apply to any of the <a href="https://support.stripe.com/questions/which-zero-decimal-currencies-does-stripe-support">zero-decimal currencies supported by Stripe</a>.</li>
+    <li>Include the currency when creating recurring donation plans to avoid the incorrect currency from being used for a subscription after a site's main currency has changed.</li>
+</ul>
+<h3>1.2.2</h3>
+<em>May 16, 2017</em>
+<ul>
+    <li>Include the customer's address, phone number and name in the metadata sent to Stripe.</li>
+    <li>Improved cross-referencing with Stripe by including links to the Stripe records from the Charitable donation log.</li>
+    <li>Ensure that recurring donation plans created in test mode are differentiated from plans created in live mode. This avoids a bug when you switched from test mode to live, where you could not make recurring donations to campaigns that had already received a recurring donation while in test mode.</li>
+    <li>Resolved a bug that prevented payments for recurring donations from being marked as refunded after they are refunded in the Stripe dashboard.</li>
+    <li>Use <a href="https://stripe.com/docs/connect/shared-customers" target="_blank">Shared Customers</a> for platforms using Stripe alongside our Connect integration.</li>
+</ul>
+<h3>1.2.1</h3>
+<em>March 16, 2017</em>
+<ul>
+    <li>Fixed a bug that kept the donation form in 'processing' mode with the spinning progress indicator after clicking out of the Checkout modal.</li>
+</ul>
+<h3>1.2.0</h3>
+<em>February 7, 2017</em>
+<ul>
+    <li>Added support for <a href="https://www.wpcharitable.com/extensions/charitable-recurring-donations/?utm_source=extension-readme&utm_medium=changelog-tab&utm_campaign=recurring-donations&utm_content=stripe">Recurring Donations</a>.</li>
+</ul>
+<h3>1.1.4</h3>
+<em>August 11, 2016</em>
+<ul>
+    <li>Updated for full compatibility with Charitable 1.4.</li>
+</ul>
+<h3>1.1.3</h3>
+<em>June 22, 2016</em>
+<ul>
+    <li>Fixed a bug that prevented logged in users from donating in certain cases.</li>
+    <li>When switching from test mode to live mode, users who had previously donated in test mode were unable to donate in live mode. This has now been fixed.</li>
+</ul>
+<h3>1.1.2</h3>
+<em>June 7, 2016</em>
+<ul>
+    <li>Fixed a bug that prevented Stripe donations from working when using the modal donation form.</li>
+</ul>
+<h3>1.1.1</h3>
+<em>May 16, 2016</em>
+<ul>
+    <li>Fixed bug that prevented Donation widget from working when Stripe is enabled.</li>
+    <li>Fixed bug that prevented donations with other payment methods when Stripe is enabled.</li>
+</ul>
+<h3>1.1.0</h3>
+<em>May 10, 2016</em>
+<ul>
+    <li>Added support for Stripe Checkout &amp; Stripe JS. To take advantage of these, make sure you upgrade to Charitable 1.3.4 (or above).</li>
+    <li>Added <code>charitable_stripe_charge_options</code> hook to filter options passed to Stripe when making a charge.</li>
+    <li>Fixed bug that prevented translations from working on the public side of the site.</li>
+</ul>
+<h3>1.0.3</h3>
+<em>February 1, 2016</em>
+<ul>
+    <li>Adds support for AJAX-driven donations to be added in Charitable 1.3.</li>
+</ul>
+<h3>1.0.2</h3>
+<em>November 20, 2015</em>
+<ul>
+    <li>Fixes a bug with passing the CVC parameter to the gateway.</li>
+    <li>This update also prepares for the next version of Charitable (1.2.4). Please upgrade Stripe before you upgrade Charitable.</li>
+</ul>
+<h3>1.0.1</h3>
+<em>October 28, 2015</em>
+<ul>
+    <li>Fixes incompatibility issue with Wp Simple Pay for Stripe (Lite &amp; Pro).</li>
+</ul>

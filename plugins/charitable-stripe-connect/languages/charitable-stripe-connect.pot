@@ -1,0 +1,274 @@
+# Copyright (C) 2017 WP Charitable
+# This file is distributed under the same license as the Charitable - Stripe Connect package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Charitable - Stripe Connect 1.0.5\n"
+"Report-Msgid-Bugs-To: https://www.wpcharitable.com/\n"
+"POT-Creation-Date: 2017-11-24 23:14:57+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WP-Translations (http://wp-translations.org/)\n"
+"Language-Team: WP-Translations <wpt@wp-translations.org>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: includes/admin/class-charitable-extension-activation.php:47
+#: includes/admin/class-charitable-stripe-extension-activation.php:47
+msgid "This plugin"
+msgstr ""
+
+#: includes/admin/class-charitable-extension-activation.php:83
+#: includes/admin/class-charitable-stripe-extension-activation.php:83
+msgid "activate it"
+msgstr ""
+
+#: includes/admin/class-charitable-extension-activation.php:86
+#: includes/admin/class-charitable-stripe-extension-activation.php:86
+msgid "install it"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:80
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:90
+msgid "Activate Stripe"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:108
+#: includes/admin/class-charitable-stripe-connect-admin.php:194
+msgid "Stripe Connect"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:114
+msgid "Development Client ID"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:117
+msgid ""
+"The Development Client ID is used while you are still in Test Mode. You can "
+"find your development client ID in <a "
+"href=\"https://dashboard.stripe.com/account/applications/settings\" "
+"target=\"_blank\">your Stripe dashboard</a>."
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:121
+msgid "Production Client ID"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:124
+msgid ""
+"The Production Client ID is used when Test Mode is switched off.  You can "
+"find your production client ID in <a "
+"href=\"https://dashboard.stripe.com/account/applications/settings\" "
+"target=\"_blank\">your Stripe dashboard</a>. "
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:128
+msgid "Platform Fee"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:130
+msgid "Enter amount as a percentage."
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:131
+msgid ""
+"Set the platform fee that you charge for each transaction you process, as a "
+"percentage. <a "
+"href=\"https://stripe.com/docs/connect/payments-fees#collecting-fees\" "
+"target=\"_blank\">https://stripe.com/docs/connect/payments-fees#collecting-"
+"fees</a>"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:135
+msgid "How is the charge created?"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:138
+msgid "Directly on the connected account"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:139
+msgid "Through your platform account"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:141
+msgid ""
+"There are two ways you can collect donations on behalf of your connected "
+"accounts (i.e. the accounts of your users). You can either have the "
+"donations charged directly on the connected account, in which case it is "
+"responsible for the fees, refunds and chargebacks. Alternatively, you can "
+"have the donations charged through the platform account, which makes the "
+"platform responsible for the fees, refunds and chargebacks. <a "
+"href=\"https://stripe.com/docs/connect/payments-fees#creating-payments\" "
+"target=\"_blank\">https://stripe.com/docs/connect/payments-fees#creating-"
+"payments</a>"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:144
+msgid "Connection Success Page"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:148
+#: includes/admin/class-charitable-stripe-connect-admin.php:161
+msgid "Homepage"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:151
+#: includes/admin/class-charitable-stripe-connect-admin.php:164
+msgid "Choose a Static Page"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:154
+msgid ""
+"This is the page that users are redirected to after they have successfully "
+"connected their Stripe account."
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:157
+msgid "Connection Failure Page"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:167
+msgid ""
+"This is the page that users are redirected to after they cancelled or were "
+"otherwise unsucessful in connecting their Stripe account."
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:189
+msgid "Automatic"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:210
+msgid "Stripe Connect Settings"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:214
+#: includes/admin/class-charitable-stripe-connect-admin.php:272
+msgid "Account Connected"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:215
+#: includes/admin/class-charitable-stripe-connect-admin.php:273
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:215
+#: includes/admin/class-charitable-stripe-connect-admin.php:273
+msgid "No"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:219
+#: includes/admin/class-charitable-stripe-connect-admin.php:280
+msgid "Error"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:220
+#: includes/admin/class-charitable-stripe-connect-admin.php:281
+msgid "error code"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:224
+#: includes/admin/class-charitable-stripe-connect-admin.php:287
+msgid "Access Token"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:228
+#: includes/admin/class-charitable-stripe-connect-admin.php:292
+msgid "Stripe User ID"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:252
+#: includes/admin/class-charitable-stripe-connect-admin.php:263
+msgid "Funds Recipient"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:253
+msgid "-"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-connect-admin.php:267
+msgid "User ID"
+msgstr ""
+
+#: includes/class-charitable-stripe-connect.php:332
+#: includes/class-charitable-stripe-connect.php:343
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/public/class-charitable-stripe-connect-response-shortcode.php:38
+msgid "Something went wrong with connecting your Stripe account."
+msgstr ""
+
+#: includes/public/class-charitable-stripe-connect-response-shortcode.php:39
+#: includes/public/class-charitable-stripe-connect-status-shortcode.php:37
+#: includes/users/class-charitable-stripe-connect-profile-form.php:72
+msgid "Your Stripe account has been successfully connected."
+msgstr ""
+
+#: includes/public/class-charitable-stripe-connect-status-shortcode.php:35
+msgid "Connect Now"
+msgstr ""
+
+#: includes/public/class-charitable-stripe-connect-status-shortcode.php:38
+msgid "You haven't connected your Stripe account yet."
+msgstr ""
+
+#: includes/users/class-charitable-stripe-connect-profile-form.php:74
+msgid ""
+"You haven't connected your Stripe account yet.<br /><a href=\"%s\">Connect "
+"Now</a>"
+msgstr ""
+
+#: includes/users/class-charitable-stripe-connect-profile-form.php:78
+msgid "Stripe"
+msgstr ""
+
+#: includes/users/class-charitable-stripe-connect-response.php:182
+msgid "unkown_error"
+msgstr ""
+
+#: includes/users/class-charitable-stripe-connect-response.php:183
+msgid "Connection failed for unknown reason."
+msgstr ""
+
+#: includes/users/class-charitable-stripe-connect-response.php:212
+msgid "You did not connect your Stripe account."
+msgstr ""
+
+#: includes/users/class-charitable-stripe-connect-response.php:217
+msgid "Your Stripe account failed to be connected."
+msgstr ""
+
+#: templates/shortcodes/connect-response.php:28
+msgid "Connect with Stripe"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Allow your campaign creators to get paid via Stripe Connect. Requires "
+"Charitable Stripe."
+msgstr ""
+
+#: includes/admin/class-charitable-extension-activation.php:89
+msgctxt "Plugin requires Charitable! Please install/activate it to continue!"
+msgid "%s requires Charitable! Please %s to continue!"
+msgstr ""
+
+#: includes/admin/class-charitable-stripe-extension-activation.php:89
+msgctxt "Plugin requires Charitable Stripe! Please install/activate it to continue!"
+msgid "%s requires Charitable Stripe! Please %s to continue!"
+msgstr ""
